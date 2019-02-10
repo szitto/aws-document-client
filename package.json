@@ -1,0 +1,25 @@
+{
+  "name": "aws-document-client",
+  "version": "0.1.0",
+  "description": "A simple async wrapper for DynamoDB client",
+  "main": "src/operations.js",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/szitto/aws-document-client.git"
+  },
+  "author": "Nandor Szentpeteri",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "aws-sdk": "^2.400.0",
+    "aws-sdk-mock": "^4.3.0",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.2.2",
+    "jest": "^24.1.0"
+  }
+}
