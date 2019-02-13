@@ -1,6 +1,6 @@
 {
   "name": "aws-document-client",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A simple async wrapper for DynamoDB client",
   "main": "src/operations.js",
   "scripts": {
